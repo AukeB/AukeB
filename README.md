@@ -19,7 +19,7 @@
 - [`template-repo`](https://github.com/AukeB/template-repo): Template repository that can be used for starting other repositories.
 
 
-#### Notebooks in the `notebooks` repository
+#### Notebooks in the [`notebooks`](https://github.com/AukeB/notebooks) repository
 
 - `advent_of_code_2025.py`: Contains my solutions for all Advent of Code 2025 puzzles.
 - `book_language_translation.ipynb`: Processes an .epub file in another language (for example, German), detects all the different words in the vocabulary, categorize words linguistically, and transalted each noun into another language (for example, Dutch).
