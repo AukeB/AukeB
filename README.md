@@ -28,16 +28,12 @@
 
   <summary><strong>📘 Notebooks in the `notebooks` Repository</strong></summary>
 
-- [`advent_of_code_2025.py`](https://github.com/AukeB/notebooks/blob/main/advent_of_code_2025.py)  
-  🎄 Solutions for Advent of Code 2025.
+- [`advent_of_code_2025.py`](https://github.com/AukeB/notebooks/blob/main/advent_of_code_2025.py): 🎄 Contains my solutions for all Advent of Code 2025 puzzles.
 
-- [`book_language_translation.ipynb`](https://github.com/AukeB/notebooks/blob/main/book_language_translation.ipynb)  
-  🌍 Processes `.epub` books in foreign languages, detects vocabulary, categorizes words, and translates nouns.
+- [`book_language_translation.ipynb`](https://github.com/AukeB/notebooks/blob/main/book_language_translation.ipynb): 🌍 Processes an .epub file in another language (for example, German), detects all the different words in the vocabulary, categorize words linguistically, and translates each noun into another language (for example, Dutch).
 
-- [`image_to_text.ipynb`](https://github.com/AukeB/notebooks/blob/main/image_to_text.ipynb)  
-  🖼️ OCR extraction from images → `.txt` or PDF.
+- [`image_to_text.ipynb`](https://github.com/AukeB/notebooks/blob/main/image_to_text.ipynb): 🖼️ Automates OCR extraction from image files, saves the recognized text to a .txt file, and optionally converts the results into a PDF document.
 
-- [`speech_to_text.ipynb`](https://github.com/AukeB/notebooks/blob/main/speech_to_text.ipynb)  
-  🎙️ YouTube audio → Whisper transcription with timestamps.
+- [`speech_to_text.ipynb`](https://github.com/AukeB/notebooks/blob/main/speech_to_text.ipynb): 🎙️ Downloads audio from YouTube, transcribes it using OpenAI Whisper, merges the transcript with timestamps, and splits the result into manageable text chunks for further processing.
 
 </details>
