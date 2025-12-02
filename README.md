@@ -26,10 +26,7 @@
 
 <details>
 
-
   <summary><strong>📘 Notebooks in the `notebooks` Repository</strong></summary>
-
-<br>
 
 - [`advent_of_code_2025.py`](https://github.com/AukeB/notebooks/blob/main/advent_of_code_2025.py)  
   🎄 Solutions for Advent of Code 2025.
