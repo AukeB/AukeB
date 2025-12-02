@@ -26,7 +26,23 @@
 
 <details>
 
-  <summary><strong>📘 Notebooks in the `notebooks` Repository</strong></summary>
+  <summary><strong>🧠 Algorithms from Scratch</strong></summary>
+
+- `GPT Tokenizer`: Implementation of a tokenizer similar to the GPT model, which converts text into smaller units for processing by language models.
+
+- `Nearest Neighbours`: Simple algorithm to find the closest points in a dataset, commonly used in classification and recommendation systems.
+
+- `2D Water Ripple Simulation`: Simulates ripples on a water surface in two dimensions, demonstrating wave propagation and interference patterns.
+
+- `Diamond-Square Algorithm`: Procedural generation algorithm for creating realistic 2D terrain heightmaps.
+
+- `Wave Function Collapse Algorithm`: Constraint-based algorithm for generating patterns and structures while respecting local adjacency rules, often used in procedural content generation.
+
+</details>
+
+<details>
+
+  <summary><strong>📘 Notebooks</strong></summary>
 
 - `advent_of_code_2025.py`: 🎄 Contains my solutions for all Advent of Code 2025 puzzles.
 
