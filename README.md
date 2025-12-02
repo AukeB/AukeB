@@ -22,11 +22,7 @@
 
 - [`template-repo`](https://github.com/AukeB/template-repo): Template repository that can be used for starting other repositories.
 
-<br>
-
 ---
-
-<br>
 
 <details>
 
