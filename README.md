@@ -44,7 +44,7 @@
 
   <summary><strong>📘 Notebooks</strong></summary>
 
-- `advent_of_code_2025.py`: 🎄 Contains my solutions for all Advent of Code 2025 puzzles.
+- `advent_of_code/advent_of_code_2025.py`: 🎄 Contains my solutions for all Advent of Code 2025 puzzles. The same folder also contains solution to earlier AoC problems I have solved.
 
 - `book_language_translation.ipynb`: 🌍 Processes an .epub file in another language (for example, German), detects all the different words in the vocabulary, categorize words linguistically, and translates each noun into another language (for example, Dutch).
 
