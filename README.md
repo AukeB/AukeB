@@ -16,6 +16,8 @@
 
 - [`photo-merger`](https://github.com/AukeB/photo-merger): 📸 Merge photos from multiple directories chronologically into a single directory by extracting metadata.
 
+- ['tree-scaper'](https://github.com/AukeB/tree-scaper): 🌲 Repository for visualizing tree and forest structures with hierarchical nodes and branches, featuring dynamic layouts, using Python and PyGame.
+
 - [`notebooks`](https://github.com/AukeB/notebooks): 📓 All kinds of different notebooks, see below for an overview.
 
 - [`university-courses-and-research`](https://github.com/AukeB/university-courses-and-research): 🎓 Contains all the code I wrote for my University courses and research projects.
