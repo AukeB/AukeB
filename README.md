@@ -6,7 +6,7 @@
 
 ## My Repositories
 
-- [`docstring-tailor`](https://github.com/AukeB/docsring-tailor): Automatic Python docstring formatting according to PEP 256 and maximum number of characters per line. ![PyPI Version](https://img.shields.io/pypi/v/docstring-tailor)](https://pypi.org/project/docstring-tailor/)
+- [`docstring-tailor`](https://github.com/AukeB/docsring-tailor): Automatic Python docstring formatting according to PEP 256 and maximum number of characters per line. [![PyPI Version](https://img.shields.io/pypi/v/docstring-tailor)](https://pypi.org/project/docstring-tailor/)
 
 - [`Tetris`](https://github.com/AukeB/Tetris) and [`boom-tetris`](https://github.com/AukeB/boom-tetris): 🎮 A Python implementation of the most classic version of Tetris for the Nintendo Entertainment System (NES), with some fun additions such as commentary mode. I am working on refactoring the Tetris repository into the boom-tetris repository.
 
