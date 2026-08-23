@@ -6,7 +6,7 @@
 
 ## My Repositories
 
-- [`docstring-tailor`](https://github.com/AukeB/docstring-tailor): 🪡 Automatic Python docstring formatting according to PEP 257 and a maximum line length.
+- [`docstring-tailor`](https://github.com/AukeB/docstring-tailor): 🪡 Formats Python docstrings to PEP 257 style with configurable line length.
 
 - [`Tetris`](https://github.com/AukeB/Tetris) and [`boom-tetris`](https://github.com/AukeB/boom-tetris): 🎮 A Python implementation of the most classic version of Tetris for the Nintendo Entertainment System (NES), with some fun additions such as commentary mode. I am working on refactoring the Tetris repository into the boom-tetris repository.
 
@@ -24,8 +24,7 @@
 
 - [`university-courses-and-research`](https://github.com/AukeB/university-courses-and-research): 🎓 Contains all the code I wrote for my University courses and research projects.
 
-- [`template-repo`](https://github.com/AukeB/template-repo): 🏗️ Template repository that can be used for starting other repositories.
-
+- [`template-repo`](https://github.com/AukeB/template-repo): 🏗️ Template repository that can be used for starting other repositories, with separate branches for general Python projects and for pygame-based projects (including grid visualizations).
 ---
 
 <details>
