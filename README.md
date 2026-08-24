@@ -29,17 +29,32 @@
 
 <details>
 
-  <summary><strong>🧠 Algorithms from Scratch</strong></summary>
+<summary><strong>🧠 Algorithms from Scratch</strong></summary>
 
-- `GPT Tokenizer`: Implementation of a tokenizer similar to the GPT model, which converts text into smaller units for processing by language models.
+```text
+algorithms-from-scratch/
+├── cellular_automata/
+│   └── elementary_cellular_automaton/
+│
+├── machine_learning/
+│   ├── nearest_neighbours/
+│   └── large_language_models/
+│       └── gpt_tokenizer.ipynb
+│
+├── miscellaneous/
+│   └── water_ripples/
+│
+└── terrain_generation/
+    ├── perlin_noise/
+    └── wave_function_collapse/
+```
 
-- `Nearest Neighbours`: Simple algorithm to find the closest points in a dataset, commonly used in classification and recommendation systems.
-
-- `2D Water Ripple Simulation`: Simulates ripples on a water surface in two dimensions, demonstrating wave propagation and interference patterns.
-
-- `Diamond-Square Algorithm`: Procedural generation algorithm for creating realistic 2D terrain heightmaps.
-
-- `Wave Function Collapse Algorithm`: Constraint-based algorithm for generating patterns and structures while respecting local adjacency rules, often used in procedural content generation.
+- **Elementary Cellular Automaton**: Simulates one-dimensional cellular automata where each cell evolves based on its three-cell neighborhood and an 8-bit rule number.
+- **Nearest Neighbors**: Simple implementation of the K-nearest neighbours algorithm for classifying data based on the classes of nearby points.
+- **GPT Tokenizer**: Implementation of a tokenizer similar to the GPT model, which converts text into smaller units for processing by language models.
+- **2D Water Ripple Simulation**: Simulates ripples on a water surface in two dimensions, demonstrating wave propagation and interference patterns.
+- **Perlin Noise**: Procedural noise generation algorithm commonly used to create natural-looking textures, terrain, and other continuous patterns.
+- **Wave Function Collapse**: Constraint-based algorithm for generating patterns and structures while respecting local adjacency rules, often used in procedural content generation.
 
 </details>
 
