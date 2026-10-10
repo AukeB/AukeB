@@ -20,6 +20,8 @@
 
 - [`tree-scaper`](https://github.com/AukeB/tree-scaper): 🌲 Repository for visualizing tree and forest structures with hierarchical nodes and branches, featuring dynamic layouts, using Python and PyGame.
 
+- [`spotify-genre-sorter`](https://github.com/AukeB/spotify-genre-sorter): 🎧 Groups your Spotify songs into genre playlists, using genre data from MusicBrainz and Last.fm. The data is cached locally in SQLite, so repeated runs only fetch what has changed.
+
 - [`notebooks`](https://github.com/AukeB/notebooks): 📓 All kinds of different notebooks, see below for an overview.
 
 - [`university-courses-and-research`](https://github.com/AukeB/university-courses-and-research): 🎓 Contains all the code I wrote for my University courses and research projects.
@@ -103,3 +105,4 @@ algorithms-from-scratch/
 - `MRP-2`: Final Master Research Project, 2020
 
 </details>
+
