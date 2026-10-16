@@ -67,3 +67,16 @@ The `AukeB` repo is the profile repo. It is an exception to rules 1 and 3, so it
 10. Every folder in `repos/public/` and `repos/private/` has a row in the table. Every row names a folder in one of those two directories, except the `AukeB` row, which is the profile repo itself and is not in `repos/`.
 11. The Public column of each row matches the folder the repo is in. A repo in `repos/public/` is ✅ and a repo in `repos/private/` is ❌. The folder is the ground truth, so the table is changed to match the folder, never the other way round.
 12. Every public repo in `repos/public/` is mentioned in `README.md`, as rule 1 requires. If one is missing, it is added in the way rule 3 says. If the repo has no readme, the user will have added one with a level 1 header and a description, so copy the description from that readme.
+
+## Agent instruction files (all repos)
+
+These rules cover `AGENTS.md` and `CLAUDE.md` in the repos. They are applied as overwrites, without asking, because the user asked for that behaviour.
+
+13. **Source.** Find every `AGENTS.md` under `repos/public/` and `repos/private/`, skipping `.venv`, `node_modules` and `.git` folders. The file with the latest modification time is the source. Its folder's `AGENTS.md` and `CLAUDE.md` are the source pair. If the newest `AGENTS.md` ties on modification time with another one, ask the user which to use. Report the source path and its modification time.
+14. **Targets.** Overwrite `AGENTS.md` and `CLAUDE.md` with the source pair in every public repo, with these exceptions:
+   - The source repo itself is skipped, since it already has the pair.
+   - `Tetris` and `university-courses-and-research` are skipped, since they no longer get edits. Do not add or change files in them.
+   - `algorithms-from-scratch` gets the pair in each application folder listed in its tree (the leaves of the tree in `repos/public/algorithms-from-scratch/readme.md`), not at the repo root. Use the same application folders as in rules 4 and 5.
+   - Private repos are not targets.
+   If a target already has the files, replace them. If it does not, create them.
+15. **Verify.** After copying, each target's `AGENTS.md` and `CLAUDE.md` must match the source byte for byte. Report each target as pass or fail, and list which targets had their files replaced, created, or left unchanged. Do not commit or push. Leave that to `AukeB/git_sync.sh`, which the user runs.
