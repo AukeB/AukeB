@@ -10,6 +10,8 @@
 
 - [`Tetris`](https://github.com/AukeB/Tetris) and [`boom-tetris`](https://github.com/AukeB/boom-tetris): 🎮 A Python implementation of the most classic version of Tetris for the Nintendo Entertainment System (NES), with some fun additions such as commentary mode. I am working on refactoring the Tetris repository into the boom-tetris repository.
 
+- [`pg-plonker`](https://github.com/AukeB/pg-plonker): 🎛️ A lightweight pygame extension for plonking GUI elements, such as buttons, onto your pygame window. It follows pygame's own conventions closely.
+
 - [`algorithms-from-scratch`](https://github.com/AukeB/algorithms-from-scratch): 🧠 Contains implementations of algorithms without using any ML, AI or other packages that do the job for you.
 
 - [`pdf-chef`](https://github.com/AukeB/pdf-chef): 🧾 Code for converting .json files into good looking PDF documents, based on a predefined PDF structure.
@@ -21,6 +23,8 @@
 - [`tree-scaper`](https://github.com/AukeB/tree-scaper): 🌲 Repository for visualizing tree and forest structures with hierarchical nodes and branches, featuring dynamic layouts, using Python and PyGame.
 
 - [`spotify-genre-sorter`](https://github.com/AukeB/spotify-genre-sorter): 🎧 Groups your Spotify songs into genre playlists, using genre data from MusicBrainz and Last.fm. The data is cached locally in SQLite, so repeated runs only fetch what has changed.
+
+- [`skrt-pomp`](https://github.com/AukeB/skrt-pomp): 🎵 Creating chiptune music with Python, inspired by the sound of old video game consoles such as the NES.
 
 - [`notebooks`](https://github.com/AukeB/notebooks): 📓 All kinds of different notebooks, see below for an overview.
 
@@ -37,32 +41,36 @@
 algorithms-from-scratch/
 ├── cellular_automata/
 │   └── elementary_cellular_automaton/
-│
 ├── machine_learning/
-│   ├── nearest_neighbours/
-│   └── large_language_models/
-│       └── gpt_tokenizer.ipynb
-│
+│   ├── supervised/
+│   │   ├── decision_trees/
+│   │   └── nearest_neighbours/
+│   └── tokenization/
+│       └── gpt_tokenizer/
 ├── miscellaneous/
 │   └── water_ripples/
-│
 └── terrain_generation/
     ├── perlin_noise/
+    ├── voronoi_diagram/
     └── wave_function_collapse/
 ```
 
-- **Elementary Cellular Automaton**: Simulates one-dimensional cellular automata where each cell evolves based on its three-cell neighborhood and an 8-bit rule number.
+- **Elementary Cellular Automaton**: Python/PyGame implementation of the Elementary Cellular Automaton algorithm, which simulates one-dimensional cellular automata where each cell evolves based on its three-cell neighborhood and an 8-bit rule number.
+- **Decision Tree**: Python implementation of a simple decision tree for classification.
 - **Nearest Neighbors**: Simple implementation of the K-nearest neighbours algorithm for classifying data based on the classes of nearby points.
 - **GPT Tokenizer**: Implementation of a tokenizer similar to the GPT model, which converts text into smaller units for processing by language models.
-- **2D Water Ripple Simulation**: Simulates ripples on a water surface in two dimensions, demonstrating wave propagation and interference patterns.
+- **2D Water Ripple Simulation**: This project contains three implementations of a 2D water ripple simulation using PyGame, each building on the previous one. The simulation is based on a discrete wave equation described in [Hugo Elias's classic water ripple tutorial](https://web.archive.org/web/20160418004149/http://freespace.virgin.net/hugo.elias/graphics/x_water.htm).
 - **Perlin Noise**: Procedural noise generation algorithm commonly used to create natural-looking textures, terrain, and other continuous patterns.
-- **Wave Function Collapse**: Constraint-based algorithm for generating patterns and structures while respecting local adjacency rules, often used in procedural content generation.
+- **Voronoi Diagram**: Project for generating Voronoi diagrams, which partition a plane into regions based on the nearest of a set of seed points.
+- **Wave Function Collapse**: Constraint-based algorithm that generates a 2D grid of tiles locally consistent with a source bitmap, respecting local adjacency rules, often used in procedural content generation.
 
 </details>
 
 <details>
 
   <summary><strong>📘 Notebooks</strong></summary>
+
+> The notebooks repository will be reworked, so this section is out of date for now.
 
 - `advent_of_code/advent_of_code_2025.py`: 🎄 Contains my solutions for all Advent of Code 2025 puzzles. The same folder also contains solution to earlier AoC problems I have solved.
 
