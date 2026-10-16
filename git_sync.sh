@@ -23,7 +23,16 @@ for repo in "${repos[@]}"; do
     fi
 
     echo "== $name"
-    git -C "$repo" status --short
+    git -C "$repo" status --porcelain | while IFS= read -r line; do
+        code="${line:0:2}"
+        path="${line:3}"
+        case "$code" in
+            "??"|A*) printf '\033[32mA\033[0m %s\n' "$path" ;;
+            *D*) printf '\033[31mD\033[0m %s\n' "$path" ;;
+            *M*) printf '\033[33mM\033[0m %s\n' "$path" ;;
+            *) printf '%s %s\n' "$code" "$path" ;;
+        esac
+    done
     if git -C "$repo" add -A && git -C "$repo" commit -q -m "Updated"; then
         committed+=("$repo")
     else
