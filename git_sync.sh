@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Commits all changes in the profile repo and every repo under repos/,
-# then asks before pushing anything.
+# then asks before pushing anything, including commits that were made earlier and are not pushed yet.
 
 set -u
 
@@ -33,13 +33,27 @@ done
 
 if [ ${#committed[@]} -eq 0 ]; then
     echo "No changes to commit."
+fi
+
+# Repos with commits that are not on their remote yet (new or from earlier runs)
+to_push=()
+for repo in "${repos[@]}"; do
+    [ -d "$repo/.git" ] || continue
+    ahead="$(git -C "$repo" rev-list --count '@{u}..HEAD' 2>/dev/null || echo 0)"
+    if [ "$ahead" -gt 0 ]; then
+        to_push+=("$repo")
+    fi
+done
+
+if [ ${#to_push[@]} -eq 0 ]; then
+    echo "Nothing to push."
     exit 0
 fi
 
 echo
-echo "Committed locally:"
-for repo in "${committed[@]}"; do
-    echo "  $(basename "$repo")"
+echo "Not pushed yet:"
+for repo in "${to_push[@]}"; do
+    echo "  $(basename "$repo") ($(git -C "$repo" rev-list --count '@{u}..HEAD') commit(s))"
 done
 
 read -r -p "Push these repos? [y/N] " answer
@@ -48,7 +62,7 @@ if [[ ! "$answer" =~ ^[Yy]$ ]]; then
     exit 0
 fi
 
-for repo in "${committed[@]}"; do
+for repo in "${to_push[@]}"; do
     if git -C "$repo" push; then
         echo "pushed: $(basename "$repo")"
     else
