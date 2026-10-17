@@ -1,7 +1,7 @@
 # Repositories
 
-Total repositories: 16
-Public repositories: 15
+Total repositories: 17
+Public repositories: 16
 Private repositories: 1
 
 ## Python
@@ -27,12 +27,13 @@ Private repositories: 1
 | # | Repository | Public | Python | Mentioned in README |
 | --- | --- | --- | --- | --- |
 | 12 | algorithms-from-scratch | ✅ | ✅ | ✅ |
-| 13 | notebooks | ✅ | ✅ | ✅ |
-| 14 | university-courses-and-research | ✅ | ✅ | ✅ |
+| 13 | advent-of-code | ✅ | ✅ | ✅ |
+| 14 | notebooks | ✅ | ✅ | ✅ |
+| 15 | university-courses-and-research | ✅ | ✅ | ✅ |
 
 ## Other
 
 | # | Repository | Public | Language | Mentioned in README |
 | --- | --- | --- | --- | --- |
-| 15 | AukeB | ✅ | md, .sh | ❌ |
-| 16 | web-weaver | ❌ | Vue | ➖ |
+| 16 | AukeB | ✅ | md, .sh | ❌ |
+| 17 | web-weaver | ❌ | Vue | ➖ |

@@ -26,6 +26,8 @@
 
 - [`skrt-pomp`](https://github.com/AukeB/skrt-pomp): 🎵 Creating chiptune music with Python, inspired by the sound of old video game consoles such as the NES.
 
+- [`advent-of-code`](https://github.com/AukeB/advent-of-code): 🎄 Python solutions to the yearly Advent of Code puzzles, organized by year and day.
+
 - [`notebooks`](https://github.com/AukeB/notebooks): 📓 All kinds of different notebooks, see below for an overview.
 
 - [`university-courses-and-research`](https://github.com/AukeB/university-courses-and-research): 🎓 Contains all the code I wrote for my University courses and research projects.
@@ -70,15 +72,9 @@ algorithms-from-scratch/
 
   <summary><strong>📘 Notebooks</strong></summary>
 
-> The notebooks repository will be reworked, so this section is out of date for now.
+- `image_to_text.py`: 🖼️ Automates OCR extraction from image files, saves the recognized text to a .txt file, and optionally converts the results into a PDF document.
 
-- `advent_of_code/advent_of_code_2025.py`: 🎄 Contains my solutions for all Advent of Code 2025 puzzles. The same folder also contains solution to earlier AoC problems I have solved.
-
-- `book_language_translation.ipynb`: 🌍 Processes an .epub file in another language (for example, German), detects all the different words in the vocabulary, categorize words linguistically, and translates each noun into another language (for example, Dutch).
-
-- `image_to_text.ipynb`: 🖼️ Automates OCR extraction from image files, saves the recognized text to a .txt file, and optionally converts the results into a PDF document.
-
-- `speech_to_text.ipynb`: 🎙️ Downloads audio from YouTube, transcribes it using OpenAI Whisper, merges the transcript with timestamps, and splits the result into manageable text chunks for further processing.
+- `speech_to_text.py`: 🎙️ Downloads audio from YouTube, transcribes it using OpenAI Whisper, merges the transcript with timestamps, and splits the result into manageable text chunks for further processing.
 
 </details>
 

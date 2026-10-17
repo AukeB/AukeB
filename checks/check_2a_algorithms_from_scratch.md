@@ -1,4 +1,4 @@
-# Check: README.md, Details
+# Check: README.md, Algorithms from Scratch details
 
 Read [common.md](common.md) first. It defines the base directory, the definitions of application and application description, the source of truth for descriptions, and the process for running a check.
 
@@ -8,11 +8,10 @@ Read [common.md](common.md) first. It defines the base directory, the definition
 - Each application readme in `repos/public/algorithms-from-scratch/`
 - `AukeB/README.md`, the Algorithms from Scratch details section
 
-Changes to `AukeB/README.md` are made only in the sections named in this check. The Notebooks and University Courses & Research sections are excluded (see below).
+Changes to `AukeB/README.md` are made only in the Algorithms from Scratch details section named in this check.
 
 ## Exclusions
 
-- The Notebooks details section in `AukeB/README.md` is ignored by all checks, since the `notebooks` repository will be reworked somewhere in the near future by the user. As long as this notice is present in that section, you can ignore it: "The notebooks repository will be reworked, so this section is out of date for now."
 - Nothing in the University Courses & Research details section of `AukeB/README.md` ever needs to change. The user is no longer attending university and all courses are finished, so do not check, edit or report on that section.
 
 ## Rules

@@ -3,7 +3,8 @@
 This file is shared by all the check files in this folder:
 
 - [check_1_readme_my_repositories.md](check_1_readme_my_repositories.md): rules 1 to 3
-- [check_2_readme_details.md](check_2_readme_details.md): rules 4 to 8, plus the notebooks and university notices
+- [check_2a_algorithms_from_scratch.md](check_2a_algorithms_from_scratch.md): rules 4 to 8
+- [check_2b_notebooks.md](check_2b_notebooks.md): rule 16, plus the exclusion of the University Courses & Research section
 - [check_3_repos_md.md](check_3_repos_md.md): rules 9 to 12
 - [check_4_agent_instruction_files.md](check_4_agent_instruction_files.md): rules 13 to 15
 

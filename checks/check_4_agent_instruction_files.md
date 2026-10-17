@@ -6,7 +6,7 @@ Read [common.md](common.md) first. It defines the base directory, the process fo
 
 - `AGENTS.md` and `CLAUDE.md` in the repos under `repos/public/` and `repos/private/`
 - `AukeB/docs/repos.md`, the Python column, to find the Python-based repos
-- [check_2_readme_details.md](check_2_readme_details.md), rules 4 and 5, for the application folders of `algorithms-from-scratch`
+- [check_2a_algorithms_from_scratch.md](check_2a_algorithms_from_scratch.md), rules 4 and 5, for the application folders of `algorithms-from-scratch`
 
 These rules cover `AGENTS.md` and `CLAUDE.md` in the repos. They are applied as overwrites, without asking, because the user asked for that behaviour.
 
@@ -16,7 +16,8 @@ These rules cover `AGENTS.md` and `CLAUDE.md` in the repos. They are applied as 
 14. **Targets.** Overwrite `AGENTS.md` and `CLAUDE.md` with the source pair in every Python-based repo. The Python-based repos are the ones marked ✅ in the Python column of `AukeB/docs/repos.md`, and the ones marked ❌ there are not targets. Apply these exceptions:
    - The source repo itself is skipped, since it already has the pair.
    - `Tetris` and `university-courses-and-research` are skipped, since they no longer get edits. Do not add or change files in them.
-   - `algorithms-from-scratch` gets the pair in each application folder listed in its tree (the leaves of the tree in `repos/public/algorithms-from-scratch/readme.md`), not at the repo root. Use the same application folders as in rules 4 and 5 of [check_2_readme_details.md](check_2_readme_details.md).
+   - `algorithms-from-scratch` gets the pair in each application folder listed in its tree (the leaves of the tree in `repos/public/algorithms-from-scratch/readme.md`), not at the repo root. Use the same application folders as in rules 4 and 5 of [check_2a_algorithms_from_scratch.md](check_2a_algorithms_from_scratch.md). The tree lists `machine_learning/tokenization/gpt_tokenizer/`, but that folder does not exist yet, so ignore this discrepancy and do not create it.
+   - `advent-of-code` does not need `AGENTS.md` or `CLAUDE.md`, so do not create them there, even though it is a Python-based target.
    - Repos marked ❌ in the Python column of `AukeB/docs/repos.md` are not targets. This covers private repos that are not Python-based.
    If a target already has the files, replace them. If it does not, create them.
 15. **Verify.** After copying, each target's `AGENTS.md` and `CLAUDE.md` must match the source byte for byte. Report each target as pass or fail, and list which targets had their files replaced, created, or left unchanged. Do not commit or push.
