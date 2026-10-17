@@ -4,7 +4,7 @@
 
 set -u
 
-BASE="$(cd "$(dirname "$0")/.." && pwd)"
+BASE="$(cd "$(dirname "$0")/../.." && pwd)"
 
 repos=("$BASE/AukeB")
 for dir in "$BASE"/repos/public/*/ "$BASE"/repos/private/*/; do
