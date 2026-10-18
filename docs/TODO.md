@@ -1,6 +1,6 @@
 | Repository | Sub-project | To do | Dependency | Additional dependency |
 | --- | --- | --- | --- | --- |
-| **AukeB** |  | Add script that creates a dependency matrix for all projects |  |  |
+| **AukeB** |  | Add script that can automtically update packages for all repos |  |  |
 |  |  |  |  |  |
 | **boom-tetris** |  | continue refactoring based on local TODO.md file |  |  |
 |  |  |  |  |  |
