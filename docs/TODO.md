@@ -1,5 +1,8 @@
-| Repository | Sub-project | To do | Dependency | Dependency 2 |
+| Repository | Sub-project | To do | Dependency | Additional dependency |
 | --- | --- | --- | --- | --- |
+| **AukeB** |  | Add script that checks all Python versions in all projects |  |  |
+|  |  | Add script that creates a dependency matrix for all projects |  |  |
+|  |  |  |  |  |
 | **boom-tetris** |  | continue refactoring based on local TODO.md file |  |  |
 |  |  |  |  |  |
 | **docstring-tailor** |  | Continue 'check' command implementation and finish package |  |  |
@@ -8,17 +11,23 @@
 |  |  |  |  |  |
 | **pg-plonker** |  | Continue development, see local TODO.md, and release to PyPI at some point |  |  |
 |  |  |  |  |  |
-| **photo-merger** |  |  |  |  |
+| **photo-merger** |  | Check if it works with current method (entrypoint main.py) |  |  |
+|  |  | Convert package to CLI application |  |  |
+|  |  | Convert package to GUI application |  |  |
 |  |  |  |  |  |
-| **score-snatcher** |  |  |  |  |
+| **score-snatcher** |  | Download all videos from a YouTube channel URL as input |  |  |
 |  |  |  |  |  |
-| **skrt-pomp** |  |  |  |  |
+| **skrt-pomp** |  | Continue development |  |  |
 |  |  |  |  |  |
-| **spotify-genre-sorter** |  |  |  |  |
+| **spotify-genre-sorter** |  | Continue with preprocessing phase for modeling |  |  |
+|  |  | Merge spotify_cache.db files |  |  |
 |  |  |  |  |  |
-| **template-repo** |  |  |  |  |
+| **template-repo** |  | Look into cookie_cutter template |  |  |
+|  |  | Add template for CLI applications |  |  |
+|  |  | Finish pygame zoom grid applications template |  |  |
+|  |  | Look into if main branch is already suited for 'normal' PyPI releases |  |  |
 |  |  |  |  |  |
-| **Tetris** |  |  |  |  |
+| **Tetris** |  | Delete repo once boom-tetris is completed |  |  |
 |  |  |  |  |  |
 | **tree-scaper** |  |  |  |  |
 |  |  |  |  |  |
@@ -48,7 +57,5 @@
 | **notebooks** |  |  |  |  |
 |  |  |  |  |  |
 | **university-courses-and-research** |  |  |  |  |
-|  |  |  |  |  |
-| **AukeB** |  |  |  |  |
 |  |  |  |  |  |
 | **web-weaver** |  |  |  |  |

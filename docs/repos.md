@@ -30,10 +30,10 @@ Private repositories: 1
 | 3 | pdf-chef | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 | 4 | pg-plonker | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 | 5 | photo-merger | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
-| 6 | score-snatcher | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| 7 | skrt-pomp | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
-| 8 | spotify-genre-sorter | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
-| 9 | template-repo | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
+| 6 | score-snatcher | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 7 | skrt-pomp | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 8 | spotify-genre-sorter | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 9 | template-repo | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 | 10 | Tetris | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | 11 | tree-scaper | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 
