@@ -6,7 +6,7 @@
 |  |  |  |  |  |
 | **pdf-chef** |  | Convert PDF writing to HTML writing |  |  |
 |  |  |  |  |  |
-| **pg-plonker** |  |  |  |  |
+| **pg-plonker** |  | Continue development, see local TODO.md, and release to PyPI at some point |  |  |
 |  |  |  |  |  |
 | **photo-merger** |  |  |  |  |
 |  |  |  |  |  |
