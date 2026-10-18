@@ -1,6 +1,6 @@
 # Hi there 👋
 
-![Profile Views](https://hits.sh/github.com/AukeB/AukeB.svg?style=flat&color=blue)
+![Profile Views](https://hits.sh/github.com/AukeB/AukeB.svg?style=flat&color=blue&label=Profile%20Views)
 ![GitHub Followers](https://img.shields.io/github/followers/AukeB?style=flat&color=green)
 ![GitHub Stars](https://img.shields.io/github/stars/AukeB?affiliations=OWNER&style=flat&color=yellow)
 
