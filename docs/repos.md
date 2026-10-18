@@ -29,7 +29,7 @@ Private repositories: 1
 | 2 | docstring-tailor | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | 3 | pdf-chef | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 | 4 | pg-plonker | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
-| 5 | photo-merger | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| 5 | photo-merger | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 | 6 | score-snatcher | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | 7 | skrt-pomp | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
 | 8 | spotify-genre-sorter | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
