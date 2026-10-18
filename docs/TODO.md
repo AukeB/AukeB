@@ -1,11 +1,11 @@
 | Repository | Sub-project | To do | Dependency | Additional dependency |
 | --- | --- | --- | --- | --- |
-| **AukeB** |  | Add script that checks all Python versions in all projects |  |  |
-|  |  | Add script that creates a dependency matrix for all projects |  |  |
+| **AukeB** |  | Add script that creates a dependency matrix for all projects |  |  |
 |  |  |  |  |  |
 | **boom-tetris** |  | continue refactoring based on local TODO.md file |  |  |
 |  |  |  |  |  |
 | **docstring-tailor** |  | Continue 'check' command implementation and finish package |  |  |
+|  |  | Make sure it is compatible with lots of Python versions, probably 3.10 and higher |  |  |
 |  |  |  |  |  |
 | **pdf-chef** |  | Convert PDF writing to HTML writing |  |  |
 |  |  |  |  |  |
