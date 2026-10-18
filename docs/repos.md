@@ -8,19 +8,34 @@ Private repositories: 1
 
 ### Standard Packages
 
-| # | Repository | Public | Python | Mentioned in README | Released to PyPI | 100% coverage |
+#### Algorithms From Scratch Sub-Projects
+
+| Project | Public | Python | Mentioned in README | Released to PyPI | 100% coverage | Make all |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | boom-tetris | ✅ | ✅ | ✅ | ❌ | ✅ |
-| 2 | docstring-tailor | ✅ | ✅ | ✅ | ✅ | ✅ |
-| 3 | pdf-chef | ✅ | ✅ | ✅ | ❌ | ✅ |
-| 4 | pg-plonker | ✅ | ✅ | ✅ | ❌ | ❌ |
-| 5 | photo-merger | ✅ | ✅ | ✅ | ❌ | ❌ |
-| 6 | score-snatcher | ✅ | ✅ | ✅ | ❌ | ❌ |
-| 7 | skrt-pomp | ✅ | ✅ | ✅ | ❌ | ✅ |
-| 8 | spotify-genre-sorter | ✅ | ✅ | ✅ | ❌ | ✅ |
-| 9 | template-repo | ✅ | ✅ | ✅ | ❌ | ✅ |
-| 10 | Tetris | ✅ | ✅ | ✅ | ❌ | ❌ |
-| 11 | tree-scaper | ✅ | ✅ | ✅ | ❌ | ❌ |
+| cellular_automata/elementary_cellular_automaton | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| machine_learning/supervised/decision_trees | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| machine_learning/supervised/nearest_neighbours | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| machine_learning/tokenization/gpt_tokenizer | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| miscellaneous/water_ripples | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| terrain_generation/perlin_noise | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| terrain_generation/voronoi_diagram | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| terrain_generation/wave_function_collapse | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+
+#### Repo's
+
+| # | Repository | Public | Python | Mentioned in README | Released to PyPI | 100% coverage | Make all |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | boom-tetris | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 2 | docstring-tailor | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| 3 | pdf-chef | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| 4 | pg-plonker | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| 5 | photo-merger | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| 6 | score-snatcher | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| 7 | skrt-pomp | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
+| 8 | spotify-genre-sorter | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
+| 9 | template-repo | ✅ | ✅ | ✅ | ❌ | ✅ | ❌ |
+| 10 | Tetris | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| 11 | tree-scaper | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 
 ### Non-Standard Python
 
