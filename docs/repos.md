@@ -34,8 +34,11 @@ Private repositories: 1
 | 7 | skrt-pomp | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 | 8 | spotify-genre-sorter | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 | 9 | template-repo | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+|  | ↳ main | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+|  | ↳ pygame_grid_projects | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+|  | ↳ pygame_projects | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 | 10 | Tetris | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| 11 | tree-scaper | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| 11 | tree-scaper | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
 
 ### Non-Standard Python
 

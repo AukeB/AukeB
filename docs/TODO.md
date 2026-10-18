@@ -29,7 +29,7 @@
 |  |  |  |  |  |
 | **Tetris** |  | Delete repo once boom-tetris is completed |  |  |
 |  |  |  |  |  |
-| **tree-scaper** |  |  |  |  |
+| **tree-scaper** |  | Add compact mode |  |  |
 |  |  |  |  |  |
 | **algorithms-from-scratch** | **cellular_automata/elementary_cellular_automaton** | Integrate with pg plonker | Release pg-plonker to PyPI; Update template package for pypi release purposes |  |
 |  |  | Make grid dynamic (move around, zoom in/out) | Create pygame zoom grid functionality in template repo | Introduce cookie cutter template for template repo |
@@ -52,10 +52,10 @@
 |  |  | Integrate it with pg plonker |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
-| **advent-of-code** |  |  |  |  |
+| **advent-of-code** |  | No items |  |  |
 |  |  |  |  |  |
-| **notebooks** |  |  |  |  |
+| **notebooks** |  | No items |  |  |
 |  |  |  |  |  |
-| **university-courses-and-research** |  |  |  |  |
+| **university-courses-and-research** |  | No items |  |  |
 |  |  |  |  |  |
-| **web-weaver** |  |  |  |  |
+| **web-weaver** |  | Finish website | Finish water_ripples implementation |  |
